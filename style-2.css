@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: sans-serif;
+}
+
+.header {
+  background: rgba(241, 241, 241, 1);
+  padding: 23px;
+}
+
+.header-conteiner {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "undefined";
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "undefined";
+  font-size: 14px;
+  font: weight 400px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+  margin-left: 11px;
+}
+
+.login {
+  text-decoration: none;
+  font-family: "undefined";
+  font-size: 14px;
+  font: weight 400px;
+  color: #202020;
+}
+
+.hero {
+  padding: 60px;
+}
+
+.hero-conteiner {
+  min-width: 1140px;
+  display: flex;
+  margin-left: 130px;
+}
+
+.hero-image {
+  margin-right: 122px;
+}
+
+.name {
+  color: #202020;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.title {
+  font-size: 54px;
+  font-style: normal;
+  color: #202020;
+  margin-bottom: 15px;
+  margin-top: 22px;
+}
+
+.title-en {
+  display: flex;
+  font-size: 24px;
+  font-style: normal;
+  color: #202020;
+  max-width: 351px;
+  height: 53px;
+  margin-bottom: 48px;
+}
+
+.info-text {
+  font-size: 16px;
+  font-style: normal;
+  color: #20202;
+  flex-basis: 50%;
+  margin-bottom: 16px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 422px;
+  margin-bottom: 49px;
+
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 47px;
+}
+
+
+.priceteg {
+  font-size: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+  margin-right: 64px;
+}
+
+.favorite {
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+  text-decoration: none;
+}
+
+.button {
+  font-size: 16px;
+  font-style: normal;
+  padding: 22px 50px;
+  font-weight: 700;
+}
+
+.button_1 {
+  background: rgba(248, 156, 2, 1);
+  color: white;
+  border-radius: 5px;
+  border: 2px solid rgba(248, 156, 2, 1);
+}
+
+.button_2 {
+  background-color: white;
+  border-color: rgba(248, 156, 2, 1);
+  border-width: 2px;
+  border-style: solid;
+  color: rgba(248, 156, 2, 1);
+  border-radius: 5px;
+  text-decoration: none;
+}
