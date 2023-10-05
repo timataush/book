@@ -147,3 +147,74 @@
   border-radius: 5px;
   text-decoration: none;
 }
+
+.about {
+  background: rgba(241, 241, 241, 1);
+  padding: 100px 0;
+}
+
+.about-container {
+  align-items: flex-start;
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.about-book {
+  max-width: 455px;
+  flex-shrink: 0;
+}
+
+.about-auther {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 68px 53px;
+  max-width: 552px;
+  box-shadow: 0 1px 120px Orgba(161, 161, 161, 0.08);
+  border-radius: 10px;
+  border: 1px solid ■ #f3f3f3;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.author-text {
+  flex-basis: 100%;
+}
+
+.section-title {
+  font-size: 32px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+}
+
+.author-text {
+  margin-top: 23px;
+}
+
+.auther-link{margin-bottom: 17px;}
+
+.about-name {
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+}
+
+.auther-link {
+  ;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  color: #202020;
+  text-decoration: none;
+}
+
+.auther-avatar {
+  margin-right: 17px;
+}
+.about-inf{font-size: 16px;
+font-style: normal;
+text-align: left;
+color: #202020;}
